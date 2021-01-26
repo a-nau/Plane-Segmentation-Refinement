@@ -1,0 +1,41 @@
+# RUN CONFIG
+# # # # # # # # # # # # # # # # # #
+image_size: 1280 960  # Input image size
+edge_detection_type: "2"  # Choose type of run, i.e. type of edge detection
+# ''=DexiNed standard, '1'=DexiNed fine, '2'=DexiNed coarse, '3'=DexiNed very coarse
+# 'canny'=Canny, 'canny_adap'= adap Canny
+
+
+# ALGORITHM CONFIG
+# # # # # # # # # # # # # # # # # #
+clustering_eps: 0.02
+clustering_min_sample: 10
+mask_size: 51
+n_random_points: 10
+kernel_harris_corner_detector: 50
+
+
+# DIRECTIONS ON MACHINE
+# # # # # # # # # # # # # # # # # #
+path_output: "./output"
+path_summary: "./output/summary"
+dir_result_details: details
+file_name_input_image: image.png
+file_name_plane_mask_suf: _plane_masks_0.npy
+file_name_planercnn_image_suf: _segmentation_0_final.png
+
+
+# VISUALIZATIONS
+# # # # # # # # # # # # # # # # # #
+visualization_dict:  # specifies which visualizations should be saved
+  no_result_folder: 0  # necessary to be 0 for all but summary
+  edges: 1
+  keep_edges: 1
+  widened_contour: 1
+  lines: 1
+  initial_mask: 1
+  refined_mask: 1
+  mask_folder: 1
+  hough_lines: 1
+  hough_summary: 1
+  summary: 1  # additional summary for which result check in separate folder
