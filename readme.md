@@ -27,7 +27,7 @@ pip install -r requirements.txt
 The project can be run with
 
 ```shell
-python run_refinement.py --dir_data ./input/0_dataset_027 --config ./config.json
+python run_refinement.py --dir_data ./input/0_dataset_027 --config ./config.yaml
 ```
 
 Additionally, a test is provided in [`test_segmenation_refinement`](/tests/test_segmentation_refinement.py) that runs
