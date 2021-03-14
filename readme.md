@@ -2,6 +2,13 @@
 
 # Refined Plane Segmentation for Cuboid-Shaped Objects by Leveraging Edge Detection
 
+<div align="center">
+    
+  [![arxiv](http://img.shields.io/badge/paper-arxiv.2003.12870-B31B1B.svg)](https://arxiv.org/abs/2003.12870)
+  [![conference](https://img.shields.io/badge/paper-ICMLA%202020-4b44ce.svg)](https://ieeexplore.ieee.org/document/9356356)
+
+</div>
+
 The purpose of this research code is to leverage edge detection information to refine plane segmentation results as
 exemplarily shown here:
 
@@ -12,7 +19,7 @@ exemplarily shown here:
 </p>
 
 This can for example be used to segment parcels without any need for task specific training data. See
-the [paper](https://arxiv.org/abs/2003.12870) ([citation](#citation)) for more details.
+the [paper](https://ieeexplore.ieee.org/document/9356356) ([citation](#citation)) for more details.
 
 ## Installation
 
