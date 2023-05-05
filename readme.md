@@ -89,11 +89,11 @@ If you use this code for scientific research, please consider citing
 
 ```latex
 @inproceedings{naumannRefinedPlaneSegmentation2020,
-  title = {Refined Plane Segmentation for Cuboid-Shaped Objects by Leveraging Edge Detection},
-  booktitle = {{{IEEE Conference}} on {{Machine Learning}} and Applications} ({{ICMLA}})},
-  author = {Naumann, Alexander and Dörr, Laura and Salscheider, Niels Ole and Furmans, Kai},
-  date = {2020-12},
-  location = {{Miami, USA}},
+	title        = {Refined Plane Segmentation for Cuboid-Shaped Objects by Leveraging Edge Detection},
+	author       = {Naumann, Alexander and Dörr, Laura and Salscheider, Niels Ole and Furmans, Kai},
+	booktitle    = {{{IEEE Conference}} on {{Machine Learning}} and Applications ({{ICMLA}})},
+	location     = {{Miami, USA}},
+	date         = {2020-12}
 }
 ```
 
