@@ -1,5 +1,5 @@
-seaborn == 0.9.0
-opencv-python == 4.4.0
-numpy == 1.18.5
-scikit-learn == 0.21.2
-pyyaml == 5.1.1
+seaborn == 0.9.*
+opencv-python == 4.4.*
+numpy == 1.18.*
+scikit-learn == 0.21.*
+pyyaml == 5.1.*
